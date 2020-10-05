@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.Rubicon.TestCase.TC_FlumegateSpecifications">
+        <methods>
+          <include name="TearDown"/>
+          <include name="SpecificationTab"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.Rubicon.TestCase.TC_FlumegateSpecifications -->
+      <class name="com.Rubicon.TestCase.TC_FarmConnectSoftware">
+        <methods>
+          <include name="TearDown"/>
+          <include name="beforeClass"/>
+          <include name="SearchForCropMonitoring"/>
+        </methods>
+      </class> <!-- com.Rubicon.TestCase.TC_FarmConnectSoftware -->
+      <class name="com.Rubicon.TestCase.TC_BladeMeterBrochurePage">
+        <methods>
+          <include name="TearDown"/>
+          <include name="beforeClass"/>
+          <include name="DownloadBrochure"/>
+        </methods>
+      </class> <!-- com.Rubicon.TestCase.TC_BladeMeterBrochurePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
